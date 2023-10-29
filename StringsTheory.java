@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class StringsTheory {
     public static void main(String[] args) {
         // String name = "Ganesh";
