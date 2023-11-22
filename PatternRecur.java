@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class PatternRecur {
     public static void main(String[] args) {
         int[] arr = {4,3,2,1};
-        selection(arr, arr.length - 1, 0, 0);
+        selection(arr, arr.length , 0, 0);
         // triangle2(4, 0);
         System.out.println(Arrays.toString(arr));
     }
@@ -54,7 +54,7 @@ public class PatternRecur {
         if(r == 0){
             return;
         }
-        if (c <r) {
+        if (c < r) {
             if(arr[c] > arr[max]){
                 selection(arr, r, c+1, c);
             } else {
